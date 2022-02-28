@@ -15,6 +15,6 @@ describe("HTMLGreeter class", () => {
   });
   test("the greet method returns an appropriate string", () => {
     const newHtmlGreeter: HtmlGreeter = new HtmlGreeter("Hello");
-    expect(newHtmlGreeter.greet("Gavin")).toBe("<h1>Hello, Gavin!<h1>");
+    expect(newHtmlGreeter.greet("Gavin")).toBe("<h1>Hello, Gavin!</h1>");
   });
 });
